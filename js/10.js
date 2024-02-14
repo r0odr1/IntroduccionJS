@@ -1,17 +1,27 @@
 // Objetos
 
-const nombreProducto = "Monitor 20 Pulgadas"
-const precio = 300
-const disponible = true
+const nombreProducto = "Monitor 20 Pulgadas";
+const precio = 300;
+const disponible = true;
 
 const producto = {
   nombreProducto: "Monitor 20 Pulgadas",
   precio: 300,
-  disponible: true
-}
+  disponible: true,
+};
 
 console.log(producto);
 console.log(producto.precio);
 console.log(producto.disponible);
 
 console.log(producto["precio"]);
+
+// Modificar Objetos
+
+//Agregar nuevas propiedades
+producto.imagen = "Imagen.jpg";
+
+//eliminar propiedades
+delete producto.disponible
+
+console.log(producto);
