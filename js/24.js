@@ -28,4 +28,24 @@ for (let i = 0; i < carrito.length; i++) {
 
 //While Loop
 
+// let i = 1; // Indice
+
+// while (i <= 10) { //Condicion
+//   if ( i % 2 === 0){
+//     console.log(`El numero ${i} es par`);
+//   }else {
+//     console.log(`El numero ${i} es impar`);
+//   }
+
+//   i++ // Incremento
+// }
+
 // Do While Loop
+
+let i = 0;
+
+do {
+  console.log(i);
+
+  i++
+} while (i < 10)
