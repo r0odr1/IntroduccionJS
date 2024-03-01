@@ -8,9 +8,9 @@ class Producto {
   formatearProducto() {
     return `El  Producto ${this.nombre} tiene un preciode : ${this.precio}`;
   }
-  // formatearPrecio() {
-  //   return `El  Precio es de: ${this.precio}`;
-  // }
+  formatearPrecio() {
+    return `El  Precio es de: ${this.precio}`;
+  }
 }
 
 const prducto2 = new Producto("Monitor Curvo de 49", 800);
@@ -20,4 +20,4 @@ console.log(prducto2);
 console.log(prducto3);
 
 console.log(prducto2.formatearProducto());
-// console.log(prducto2.formatearPrecio());
+console.log(prducto2.formatearPrecio());
