@@ -26,7 +26,7 @@ for (let i = 0; i < carrito.length; i++) {
   console.log(carrito[i].nombre);
 }
 
-//While Loop
+//While Loop : Tiene que revisar que la condicion se cumpla para que se pueda ejecutar
 
 // let i = 1; // Indice
 
@@ -40,12 +40,12 @@ for (let i = 0; i < carrito.length; i++) {
 //   i++ // Incremento
 // }
 
-// Do While Loop
+// Do While Loop : Se ejecuta al menos una vez, aunque la condicion no se cumpla
 
 let i = 0;
 
 do {
   console.log(i);
 
-  i++
-} while (i < 10)
+  i++;
+} while (i < 10);
